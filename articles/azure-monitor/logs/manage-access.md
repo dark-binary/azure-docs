@@ -331,7 +331,8 @@ Granting table-level read access involves assigning a user two roles:
 
             ```json
             "Microsoft.OperationalInsights/workspaces/read",
-            "Microsoft.OperationalInsights/workspaces/query/read" 
+            "Microsoft.OperationalInsights/workspaces/query/read"
+            "Microsoft.OperationalInsights/workspaces/analytics/query/action"
             ```
 
         1. In the `"not actions"` section, add: 
